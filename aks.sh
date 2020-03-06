@@ -17,3 +17,6 @@ echo 'get AKS credentials'
 az aks get-credentials \
 --resource-group aks \
 --name aks01
+
+echo 'delete resource group if you do not want to be charged by following command'
+echo '  az group delete --name aks --yes --no-wait'
